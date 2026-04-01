@@ -1,0 +1,31 @@
+﻿clinic_id,question_order,question_id,category,question_text,scale_id
+main,1,MAIN_Q01,Safety,I felt safe at Radius today.,agreement
+main,2,MAIN_Q02,Listening,My health concerns were taken seriously today.,agreement
+main,3,MAIN_Q03,Respect,Staff treated me with kindness and respect today.,agreement
+main,4,MAIN_Q04,Listening,I felt listened to during my visit today.,agreement
+main,5,MAIN_Q05,Communication,My care team explained things in a way I could understand.,agreement
+main,6,MAIN_Q06,Teamwork,My care team worked well together today.,agreement
+main,7,MAIN_Q07,Comfort,I felt comfortable sharing my health story today.,agreement
+main,8,MAIN_Q08,Inclusion,I was included in decisions about my care today.,agreement
+main,9,MAIN_Q09,Equity,My background and identity were respected in my care today.,agreement
+main,10,MAIN_Q10,Wraparound,The team helped me with needs beyond just medical care.,agreement
+main,11,MAIN_Q11,Outcomes,My health has improved since coming to Radius.,agreement
+main,12,MAIN_Q12,Access,How easy was it to get the care you needed today?,ease
+main,13,MAIN_Q13,Recommendation,Would you recommend Radius to a friend or family member?,likelihood
+main,14,MAIN_Q14,ED Avoidance,Without Radius would you have gone to the emergency department today?,likelihood
+main,15,MAIN_Q15,Last ED Visit,Was your last emergency department visit something Radius could have treated?,likelihood
+dental,1,DENTAL_Q01,Safety,I felt safe at Radius today.,agreement
+dental,2,DENTAL_Q02,Listening,My health concerns were taken seriously today.,agreement
+dental,3,DENTAL_Q03,Respect,Staff treated me with kindness and respect today.,agreement
+dental,4,DENTAL_Q04,Listening,I felt listened to during my visit today.,agreement
+dental,5,DENTAL_Q05,Communication,My care team explained things in a way I could understand.,agreement
+dental,6,DENTAL_Q06,Teamwork,My care team worked well together today.,agreement
+dental,7,DENTAL_Q07,Scheduling,It was easy to book my visit.,agreement
+dental,8,DENTAL_Q08,Inclusion,I was included in decisions about my care today.,agreement
+dental,9,DENTAL_Q09,Pain Relief,The dental team helped with mouth pain or worries.,agreement
+dental,10,DENTAL_Q10,Environment,The dental space was clean and comfortable.,agreement
+dental,11,DENTAL_Q11,Education,The dental team explained my teeth care in easy words.,agreement
+dental,12,DENTAL_Q12,Access,How easy was it to get the care you needed today?,ease
+dental,13,DENTAL_Q13,Recommendation,Would you recommend Radius to a friend or family member?,likelihood
+dental,14,DENTAL_Q14,ED Avoidance,Without Radius would you have gone to the emergency department today?,likelihood
+dental,15,DENTAL_Q15,Last ED Visit,Was your last emergency department visit something Radius could have treated?,likelihood
