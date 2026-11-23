@@ -9,7 +9,7 @@ read_env <- function(name, default = NULL) {
 
 normalize_clinic_id <- function(value) {
   clinic_id <- tolower(trimws(value %||% "main"))
-  if (!clinic_id %in% c("main", "dental")) {
+  if (!clinic_id %in% c("main", "dental", "scs")) {
     clinic_id <- "main"
   }
   clinic_id
@@ -20,7 +20,8 @@ clinic_label_for <- function(clinic_id) {
     clinic_id,
     main = "Main Clinic",
     dental = "Dental Clinic",
-    "Main Clinic"
+    "Main Clinic",
+    scs = "SCS", "Main Clinic"
   )
 }
 
