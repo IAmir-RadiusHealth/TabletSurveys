@@ -29,3 +29,13 @@ dental,12,DENTAL_Q12,Access,How easy was it to get the care you needed today?,ea
 dental,13,DENTAL_Q13,Recommendation,Would you recommend Radius to a friend or family member?,likelihood
 dental,14,DENTAL_Q14,ED Avoidance,Without Radius would you have gone to the emergency department today?,likelihood
 dental,15,DENTAL_Q15,Last ED Visit,Was your last emergency department visit something Radius could have treated?,likelihood
+scs,1,SCS_Q01,Safety,I felt safe here today.,agreement 
+scs,2,SCS_Q02,Respect,Staff treated me with respect and without judgement.,agreement 
+scs,3,SCS_Q03,Welcome,I felt welcome when I came in today.,agreement 
+scs,4,SCS_Q04,Listening,Staff listened to what I needed today.,agreement 
+scs,5,SCS_Q05,Access,How easy was it to get in today?,ease 
+scs,6,SCS_Q06,Privacy,My privacy was respected here.,agreement 
+scs,7,SCS_Q07,Information,I got information I can use to stay safer.,agreement 
+scs,8,SCS_Q08,Connection,Staff helped me connect with other services I wanted.,agreement 
+scs,9,SCS_Q09,Return,Would you come back to this site?,likelihood 
+scs,10,SCS_Q10,Recommendation,Would you tell a friend about this site?,likelihood 
