@@ -21,7 +21,7 @@ clinic_label_for <- function(clinic_id) {
     main = "Main Clinic",
     dental = "Dental Clinic",
     "Main Clinic",
-    scs = "SCS", "Main Clinic"
+    scs = "SCS"
   )
 }
 
