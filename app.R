@@ -45,7 +45,7 @@ question_screen_ui <- function(config, active_question) {
     class = "survey-shell",
     shiny::tags$div(
       class = "survey-banner",
-      "Patient Experience Survey"
+      "Client Experience Survey"
     ),
     shiny::tags$div(
       class = "survey-header",
