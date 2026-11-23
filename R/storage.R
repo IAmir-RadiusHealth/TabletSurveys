@@ -68,13 +68,21 @@ append_supabase <- function(response_row, config) {
 
   endpoint <- sprintf("%s/rest/v1/%s", config$supabase_url, utils::URLencode(config$supabase_table, reserved = TRUE))
 
-  httr2::request(endpoint) |>
+  # New Supabase keys (sb_publishable_... / sb_secret_...) are not JWTs and
+  # belong on the apikey header only. Legacy anon/service_role keys (JWTs
+  # starting with eyJ) are also sent as a Bearer token, as before.
+  req <- httr2::request(endpoint) |>
     httr2::req_method("POST") |>
     httr2::req_headers(
       apikey = config$supabase_key,
-      Authorization = paste("Bearer", config$supabase_key),
       Prefer = "return=minimal"
-    ) |>
+    )
+
+  if (!startsWith(config$supabase_key, "sb_")) {
+    req <- httr2::req_headers(req, Authorization = paste("Bearer", config$supabase_key))
+  }
+
+  req |>
     httr2::req_body_json(response_row, auto_unbox = TRUE) |>
     httr2::req_perform()
 
